@@ -1,0 +1,262 @@
+#title {
+    position: static;
+    z-index: -1;
+    text-align: left;
+    background-color: #F9CEEE;
+    color: red;
+    font-family: 'Tilt Warp';
+
+
+}
+
+body {
+    text-align: center;
+}
+
+
+/* heading */
+
+.big-heading {
+
+    font-size: 3.5rem;
+    line-height: 2;
+    color: red;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+}
+
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* container section */
+.container-fluid {
+    padding: 3% 10% 7%;
+
+}
+
+/* navigation bar */
+
+.navbar-brand {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2.8rem;
+    font-weight: bold;
+
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+
+}
+
+.nav-item {
+    padding: 0 8px;
+}
+
+.nav-link {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+
+/* title image */
+
+.title-img {
+    width: 80%;
+    height: 110%;
+    margin: 0%;
+    position: absolute;
+    bottom: 20px;
+    transform: rotate(350deg);
+
+
+
+}
+
+/* now Showing */
+#now-showing {
+    padding: 0 5%;
+    position: relative;
+    z-index: 1;
+    background-color:#85F4FF;
+}
+
+.container {
+    position: relative;
+    font-family: "Philosopher";
+}
+.text-block
+{
+    display: none;
+    position: absolute;
+    bottom: 1px;
+    right: 70px;
+    left: 70px;
+    background-color: rgba(0, 0, 0, 0.418);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container:hover .text-block {
+    display: block;
+    background-color:rgba(0, 0, 0, 0.288); 
+    
+}
+
+
+.show-para {
+    text-align: justify;
+    color: white;
+    font-family: 'Philosopher';
+}
+
+.show-head {
+    color: #fff;
+}
+
+.showing-image {
+    width: 1000px;
+    height: 600px;
+    margin: 0 1%;
+}
+
+.carousel-item {
+    padding: 0 0 5% 0 ;
+    
+}
+
+
+.movie
+{
+    text-align: center;
+}
+
+
+
+
+/* latest Review */
+
+#latest-review {
+    padding: 0 0 5% 0;
+    background-color: #FFBBBB;
+
+}
+.text-block-1
+{
+    display: none;
+    position: absolute;
+    bottom: 3%;
+    right: 100px;
+    left: 100px;
+    
+    
+}
+.col{
+    padding: 3% 0 1% 0;
+}
+.rev-head
+{
+    font-family: "Philosopher";
+    background-color: #5a8af39f;
+    color: #fff;
+}
+.col:hover .text-block-1 {
+    display: block;
+    
+    
+}
+
+
+/* Contact Section */
+
+#contact-us {
+    padding: 0% 10%;
+    background-color: #FFE61B;
+}
+
+.icon1 {
+    color: black;
+    margin: 5px;
+
+}
+
+.p-footer {
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.footer-img
+{
+    height:150px;
+    width: 150px;
+}
+
+
+/* media for mobile or tab */
+
+@media(max-width:1028px) {
+    .title-img {
+        position: static;
+        transform: rotate(0);
+
+    }
+
+    #title {
+        text-align: center;
+    }
+    .text-block-1
+{
+    display: none;
+    position: absolute;
+    bottom: 2%;
+    right: 130px;
+    left: 130px;   
+}
+.showing-image {
+    width: 500px;
+    height: 300px;
+    margin: 0 1%;
+}
+
+}
+
+/* Now Showing Page 1 */
+
+
+#review
+{
+    background-color: #85F4FF;
+    padding: 0 10% 5% 10%;
+    text-align: center;
+}
+.container-fluid1
+{
+        padding: 0 10%;
+    
+    }   
+
+.review-heading
+{
+    font-family: "Philosopher";
+    color: black;
+    font-size: 3rem;
+}
+.review-para
+{
+    font-family: "Philosopher";
+    color: black;
+    font-size: 1.5rem;
+    text-align: justify;
+}
